@@ -9,8 +9,15 @@ public class MultiSpaces {
 	public static void main(String args[]){
 		
 		String str="Hello   this  is       java";
+		
+		for(String str1 : str.split(" "))
+		{
+			System.out.print(str1);
+		}
+		
+		
 	
-		System.out.println(str);
+		/*System.out.println(str);
 		StringTokenizer st =new StringTokenizer(str," ");
 		StringBuffer sb=new StringBuffer();
 	
@@ -18,7 +25,7 @@ public class MultiSpaces {
 		{
 			sb.append(st.nextElement()).append(" ");
 		}
-		System.out.println(sb.toString().trim());
+		System.out.println(sb.toString().trim());*/
 	
 	}	
 	
